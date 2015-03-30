@@ -4,7 +4,8 @@ module Sportsball
   module Assets
     ASSET_STRINGS = [
       'ASSET_STRING_1',
-      'ASSET_STRING_2'
+      'ASSET_STRING_2',
+      'ASSET_STRING_3'
     ]
     ASSET_HASHES = ASSET_STRINGS.map do |asset_string|
       Digest::MD5.hexdigest(asset_string)
